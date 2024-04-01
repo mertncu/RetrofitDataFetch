@@ -36,7 +36,7 @@ This project was developed using the MVVM (Model-View-ViewModel) architecture. T
 
 ## How to Launch
 
-1. Clone this repository: `git clone https://github.com/kullanici_adi/AyakkabiMagazasi.git`
+1. Clone this repository: `git clone https://github.com/mertncu/Kotlin-MVVM-Architecture-Sample`
 2. A database with JSON Output like this
    ```
    "Shoes": {
