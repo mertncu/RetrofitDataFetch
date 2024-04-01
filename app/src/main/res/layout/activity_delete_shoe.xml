@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViewShoeId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shoe ID"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brand"
+        android:layout_below="@+id/textViewShoeId"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"/>
+
+    <!-- Color -->
+    <TextView
+        android:id="@+id/textViewColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color"
+        android:layout_below="@+id/textViewBrand"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"/>
+
+    <!-- Model -->
+    <TextView
+        android:id="@+id/textViewModel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Model"
+        android:layout_below="@+id/textViewColor"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"/>
+
+    <!-- Price -->
+    <TextView
+        android:id="@+id/textViewPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:layout_below="@+id/textViewModel"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"/>
+
+    <!-- Size -->
+    <TextView
+        android:id="@+id/textViewSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Size"
+        android:layout_below="@+id/textViewPrice"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"/>
+
+    <!-- Delete Shoe Button -->
+    <Button
+        android:id="@+id/buttonDeleteShoe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Shoe"
+        android:layout_below="@+id/textViewSize"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"/>
+
+    <!-- Cancel Button -->
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_below="@+id/textViewSize"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/buttonDeleteShoe"/>
+
+</RelativeLayout>

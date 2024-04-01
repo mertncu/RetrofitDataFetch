@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextShoeId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Shoe ID"
+        android:inputType="number"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextShoeId"
+        android:hint="Brand"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Color"
+        android:layout_below="@id/editTextBrand"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Model"
+        android:layout_below="@id/editTextColor"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        android:inputType="number"
+        android:layout_below="@id/editTextModel"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Size"
+        android:inputType="number"
+        android:layout_below="@id/editTextPrice"
+        android:layout_margin="16dp"/>
+
+
+
+    <Button
+        android:id="@+id/buttonUpdateShoe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextSize"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:text="Save Changes and update shoe" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to the main page"
+        android:layout_below="@id/buttonUpdateShoe"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

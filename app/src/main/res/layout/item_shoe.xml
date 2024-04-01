@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCCCCC">
+
+        <TextView
+            android:id="@+id/idHeaderTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="6dp"
+            android:text="Id"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/brandHeaderTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="6dp"
+            android:text="Brand"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/colorHeaderTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="Color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/modelHeaderTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="Model"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/priceHeaderTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="Price"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/sizeHeaderTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="Size"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/deleteHeaderTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="operations"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="ExtraText">
+
+        <TextView
+            android:id="@+id/idTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="@{String.valueOf(viewModel.shoeId)}"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/brandTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="@{viewModel.shoeBrand}"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/colorTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="@{viewModel.shoeColour}"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/modelTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="@{viewModel.shoeModel}"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/priceTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="@{String.valueOf(viewModel.shoePrice)}" />
+
+        <TextView
+            android:id="@+id/sizeTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="@{String.valueOf(viewModel.shoeSize)}"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/deleteIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_delete_25" />
+
+        <ImageView
+            android:id="@+id/editIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_edit_24" />
+
+
+
+    </TableRow>
+
+</TableLayout>
