@@ -37,7 +37,7 @@ This project was developed using the MVVM (Model-View-ViewModel) architecture. T
 ## How to Launch
 
 1. Clone this repository: `git clone https://github.com/mertncu/Kotlin-MVVM-Architecture-Sample`
-2. A database with JSON Output like this
+2. A database with JSON Output like this (I didn't use a local database, I prefer remote in this project)
    ```
    "Shoes": {
     "ShoeBrand": "",
